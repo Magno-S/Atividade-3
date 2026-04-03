@@ -1,6 +1,6 @@
 library(readr)
 dados = read_csv2("imoveis.csv")
 hist(dados$preco, main = "Preço do Imóvel", xlab = "Preço", ylab = "Frequência", col = "steelblue")
-plot(dados$metragem, dados$imposto_anual, main = "Imposto versus Metragem", xlab = "Metragem", ylab = "Imposto", col = "steelblue", pch = 19)
+plot(dados$metragem, dados$imposto_anual, main = "Imposto versus Metragem", xlab = "Metragem", ylab = "Imposto", col = "blue", pch = 19)
 summary(dados$idade)
 summary(dados$itens_embutidos)
