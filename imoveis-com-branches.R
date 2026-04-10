@@ -10,7 +10,7 @@ hist(dados$preco, main = "Preço do Imóvel", xlab = "Preço", ylab = "Frequênc
 plot(dados$metragem, dados$imposto_anual, main = "Imposto versus Metragem", xlab = "Metragem", ylab = "Imposto", col = "cornflowerblue", pch = 19)
 
 #3 Medidas
-mean(dados$idade, na.rm = T)
-median(dados$idade, na.rm = T)
-sd(dados$idade, na.rm = T)
-var(dados$idade, na.rm = T)
+mean(dados$imposto_anual, na.rm = T)
+median(dados$imposto_anual, na.rm = T)
+sd(dados$imposto_anual, na.rm = T)
+var(dados$imposto_anual, na.rm = T)
