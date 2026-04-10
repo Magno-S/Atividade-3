@@ -6,7 +6,7 @@ library(ggplot2)
 dados = read_csv2("imoveis.csv")
 
 #2 Gráficos
-hist(dados$preco, main = "Preço do Imóvel", xlab = "Preço", ylab = "Frequência", col = "steelblue")
+hist(dados$metragem, main = "Metragem do Imóvel", xlab = "Metros", ylab = "Frequência", col = "steelblue")
 plot(dados$metragem, dados$imposto_anual, main = "Imposto versus Metragem", xlab = "Metragem", ylab = "Imposto", col = "cornflowerblue", pch = 19)
 
 #3 Medidas
